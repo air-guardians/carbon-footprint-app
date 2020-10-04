@@ -3,8 +3,8 @@ import * as Chartist from 'chartist';
 
 @Component({
   selector: 'app-user-profile',
-  templateUrl: './user-profile.component.html',
-  styleUrls: ['./user-profile.component.css']
+  templateUrl: './ecuador.component.html',
+  styleUrls: ['./ecuador.component.css']
 })
 export class EcuadorComponent implements OnInit {
 

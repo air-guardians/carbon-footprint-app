@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-table-list',
-  templateUrl: './table-list.component.html',
-  styleUrls: ['./table-list.component.css']
+  templateUrl: './team.component.html',
+  styleUrls: ['./team.component.css']
 })
 export class TeamComponent implements OnInit {
 
