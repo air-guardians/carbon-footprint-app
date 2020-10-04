@@ -21,6 +21,8 @@ export class FootprintComponent implements OnInit {
   labelPosition: 'before' | 'after' = 'after';
   disabled = false;
 
+  finish:boolean;
+
 isShowFamily():boolean{
   return this.labelPosition.localeCompare('after')==0;
 }
@@ -28,7 +30,8 @@ isShowFamily():boolean{
   constructor(private _formBuilder: FormBuilder) { }
 
   ngOnInit() {
-  this.showStepper=true;
+  this.showStepper=false;
+this.finish=false;
 
 
     this.firstFormGroup = this._formBuilder.group({
@@ -37,6 +40,15 @@ isShowFamily():boolean{
     this.secondFormGroup = this._formBuilder.group({
       secondCtrl: ['', Validators.required]
     });
+  }
+
+  calculate(){
+
+    this.showStepper = !this.showStepper;
+
+    this.finish=!this.finish;
+    
+
   }
 
 }
