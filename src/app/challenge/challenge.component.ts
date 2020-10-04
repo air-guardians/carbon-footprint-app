@@ -3,8 +3,8 @@ import * as Chartist from 'chartist';
 
 @Component({
   selector: 'app-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.css']
+  templateUrl: './challenge.component.html',
+  styleUrls: ['./challenge.component.css']
 })
 export class ChallengeComponent implements OnInit {
 

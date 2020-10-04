@@ -21,17 +21,20 @@ You can find the Github Repo here.
 
 ## Table of Contents
 
-* [Versions](#versions)
-* [Demo](#demo)
-* [Quick Start](#quick-start)
-* [Documentation](#documentation)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Resources](#resources)
-* [Reporting Issues](#reporting-issues)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Licensing](#licensing)
-* [Useful Links](#useful-links)
+- [Material Dashboard Angular - Free Bootstrap Material Design Admin![version](#material-dashboard-angular---free-bootstrap-material-design-adminversionchangelog)
+  - [Table of Contents](#table-of-contents)
+  - [Versions](#versions)
+  - [Demo](#demo)
+  - [Quick start](#quick-start)
+  - [Terminal Commands](#terminal-commands)
+    - [What's included](#whats-included)
+  - [Browser Support](#browser-support)
+  - [Resources](#resources)
+  - [Reporting Issues](#reporting-issues)
+  - [Technical Support or Questions](#technical-support-or-questions)
+  - [Licensing](#licensing)
+  - [Useful Links](#useful-links)
+        - [Social Media](#social-media)
 
 
 ## Versions
@@ -115,10 +118,10 @@ material-dashboard-angular
 │   │   │       ├── sidebar.component.spec.ts
 │   │   │       └── sidebar.component.ts
 │   │   ├── dashboard
-│   │   │   ├── dashboard.component.css
-│   │   │   ├── dashboard.component.html
-│   │   │   ├── dashboard.component.spec.ts
-│   │   │   └── dashboard.component.ts
+│   │   │   ├── challenge.component.css
+│   │   │   ├── challenge.component.html
+│   │   │   ├── challenge.component.spec.ts
+│   │   │   └── challenge.component.ts
 │   │   ├── icons
 │   │   │   ├── icons.component.css
 │   │   │   ├── icons.component.html
@@ -143,25 +146,25 @@ material-dashboard-angular
 │   │   │   ├── notifications.component.spec.ts
 │   │   │   └── notifications.component.ts
 │   │   ├── table-list
-│   │   │   ├── table-list.component.css
-│   │   │   ├── table-list.component.html
-│   │   │   ├── table-list.component.spec.ts
-│   │   │   └── table-list.component.ts
+│   │   │   ├── team.component.css
+│   │   │   ├── team.component.html
+│   │   │   ├── team.component.spec.ts
+│   │   │   └── team.component.ts
 │   │   ├── typography
-│   │   │   ├── typography.component.css
-│   │   │   ├── typography.component.html
-│   │   │   ├── typography.component.spec.ts
-│   │   │   └── typography.component.ts
+│   │   │   ├── footprint.component.css
+│   │   │   ├── footprint.component.html
+│   │   │   ├── footprint.component.spec.ts
+│   │   │   └── footprint.component.ts
 │   │   ├── upgrade
 │   │   │   ├── upgrade.component.css
 │   │   │   ├── upgrade.component.html
 │   │   │   ├── upgrade.component.spec.ts
 │   │   │   └── upgrade.component.ts
 │   │   └── user-profile
-│   │       ├── user-profile.component.css
-│   │       ├── user-profile.component.html
-│   │       ├── user-profile.component.spec.ts
-│   │       └── user-profile.component.ts
+│   │       ├── ecuador.component.css
+│   │       ├── ecuador.component.html
+│   │       ├── ecuador.component.spec.ts
+│   │       └── ecuador.component.ts
 │   ├── assets
 │   │   ├── css
 │   │   │   └── demo.css

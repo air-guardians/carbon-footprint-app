@@ -3,10 +3,10 @@ import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminLayoutRoutes } from './admin-layout.routing';
-import { ChallengeComponent } from '../../challenge/dashboard.component';
-import { EcuadorComponent } from '../../ecuador/user-profile.component';
-import { TeamComponent } from '../../team/table-list.component';
-import { FootprintComponent } from '../../footprint/typography.component';
+import { ChallengeComponent } from '../../challenge/challenge.component';
+import { EcuadorComponent } from '../../ecuador/ecuador.component';
+import { TeamComponent } from '../../team/team.component';
+import { FootprintComponent } from '../../footprint/footprint.component';
 import { IconsComponent } from '../../icons/icons.component';
 import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
@@ -16,6 +16,15 @@ import {MatRippleModule} from '@angular/material/core';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
+
+
+import { MatStepperModule } from '@angular/material/stepper';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatRadioModule } from '@angular/material/radio';
+
+
+const addcomponents = [MatStepperModule, MatCheckboxModule, MatRadioModule]
+
 
 @NgModule({
   imports: [
@@ -29,6 +38,7 @@ import {MatSelectModule} from '@angular/material/select';
     MatInputModule,
     MatSelectModule,
     MatTooltipModule,
+    ...addcomponents
   ],
   declarations: [
     ChallengeComponent,
