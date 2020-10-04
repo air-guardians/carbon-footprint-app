@@ -10,10 +10,10 @@ import { NotificationsComponent } from '../../notifications/notifications.compon
 
 export const AdminLayoutRoutes: Routes = [
 
-    { path: 'dashboard',      component: DashboardComponent },
-    { path: 'user-profile',   component: UserProfileComponent },
+    { path: 'challenge',      component: DashboardComponent },
+    { path: 'ecuador',   component: UserProfileComponent },
     { path: 'table-list',     component: TableListComponent },
-    { path: 'typography',     component: TypographyComponent },
+    { path: 'me-footprint',     component: TypographyComponent },
     { path: 'icons',          component: IconsComponent },
     { path: 'maps',           component: MapsComponent },
     { path: 'notifications',  component: NotificationsComponent },
