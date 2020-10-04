@@ -17,6 +17,13 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatSelectModule} from '@angular/material/select';
 
+
+import { MatStepperModule } from '@angular/material/stepper';
+
+
+const addcomponents=[MatStepperModule]
+
+
 @NgModule({
   imports: [
     CommonModule,
@@ -29,6 +36,7 @@ import {MatSelectModule} from '@angular/material/select';
     MatInputModule,
     MatSelectModule,
     MatTooltipModule,
+    ...addcomponents
   ],
   declarations: [
     ChallengeComponent,
