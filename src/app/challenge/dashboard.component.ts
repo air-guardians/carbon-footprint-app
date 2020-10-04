@@ -6,7 +6,7 @@ import * as Chartist from 'chartist';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
-export class DashboardComponent implements OnInit {
+export class ChallengeComponent implements OnInit {
 
   constructor() { }
   startAnimationForLineChart(chart){

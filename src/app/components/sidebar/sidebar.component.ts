@@ -12,7 +12,7 @@ export const ROUTES: RouteInfo[] = [
   { path: '/maps', title: 'Map CO2', icon: 'public', class: '' },
   { path: '/ecuador', title: 'Ecuador Footprint',  icon:'equalizer', class: '' },
   { path: '/me-footprint', title: 'Calculate Your Footprint', icon: 'fingerprint', class: '' },
-    { path: '/table-list', title: 'Table List',  icon:'content_paste', class: '' },
+    { path: '/team', title: 'Team',  icon:'groups', class: '' },
     { path: '/icons', title: 'Icons',  icon:'bubble_chart', class: '' },
     { path: '/notifications', title: 'Notifications',  icon:'notifications', class: '' },
 ];

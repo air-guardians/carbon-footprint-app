@@ -1,19 +1,19 @@
 import { Routes } from '@angular/router';
 
-import { DashboardComponent } from '../../dashboard/dashboard.component';
-import { UserProfileComponent } from '../../user-profile/user-profile.component';
-import { TableListComponent } from '../../table-list/table-list.component';
-import { TypographyComponent } from '../../typography/typography.component';
+import { ChallengeComponent } from '../../challenge/dashboard.component';
+import { EcuadorComponent } from '../../ecuador/user-profile.component';
+import { TeamComponent } from '../../team/table-list.component';
+import { FootprintComponent } from '../../footprint/typography.component';
 import { IconsComponent } from '../../icons/icons.component';
 import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
 
 export const AdminLayoutRoutes: Routes = [
 
-    { path: 'challenge',      component: DashboardComponent },
-    { path: 'ecuador',   component: UserProfileComponent },
-    { path: 'table-list',     component: TableListComponent },
-    { path: 'me-footprint',     component: TypographyComponent },
+    { path: 'challenge',      component: ChallengeComponent },
+    { path: 'ecuador',   component: EcuadorComponent },
+    { path: 'team',     component: TeamComponent },
+    { path: 'me-footprint',     component: FootprintComponent },
     { path: 'icons',          component: IconsComponent },
     { path: 'maps',           component: MapsComponent },
     { path: 'notifications',  component: NotificationsComponent },

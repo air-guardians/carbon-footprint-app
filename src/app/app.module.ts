@@ -10,10 +10,10 @@ import { ComponentsModule } from './components/components.module';
 
 import { AppComponent } from './app.component';
 
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { UserProfileComponent } from './user-profile/user-profile.component';
-import { TableListComponent } from './table-list/table-list.component';
-import { TypographyComponent } from './typography/typography.component';
+import { ChallengeComponent } from './challenge/dashboard.component';
+import { EcuadorComponent } from './ecuador/user-profile.component';
+import { TeamComponent } from './team/table-list.component';
+import { FootprintComponent } from './footprint/typography.component';
 import { IconsComponent } from './icons/icons.component';
 import { MapsComponent } from './maps/maps.component';
 import { NotificationsComponent } from './notifications/notifications.component';
