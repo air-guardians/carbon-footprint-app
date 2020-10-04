@@ -16,6 +16,15 @@ export class FootprintComponent implements OnInit {
   showStepper:boolean;
 
 
+  checked = false;
+  indeterminate = false;
+  labelPosition: 'before' | 'after' = 'after';
+  disabled = false;
+
+isShowFamily():boolean{
+  return this.labelPosition.localeCompare('after')==0;
+}
+
   constructor(private _formBuilder: FormBuilder) { }
 
   ngOnInit() {

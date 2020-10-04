@@ -19,9 +19,11 @@ import {MatSelectModule} from '@angular/material/select';
 
 
 import { MatStepperModule } from '@angular/material/stepper';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatRadioModule } from '@angular/material/radio';
 
 
-const addcomponents=[MatStepperModule]
+const addcomponents = [MatStepperModule, MatCheckboxModule, MatRadioModule]
 
 
 @NgModule({
