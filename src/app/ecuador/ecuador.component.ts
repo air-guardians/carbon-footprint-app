@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 //const fs = require('plotly.js')
 declare let Plotly: any;
-declare let jQuery: any;
 
 @Component({
   selector: 'app-user-profile',
@@ -26,16 +25,25 @@ export class EcuadorComponent implements OnInit {
           text: "Mt CO2",
           side: "right"
         }
-      }
-      
+      } 
+    },
+    {
+      type: "scattermapbox",
+      lat:[-2.321218, -3.370659, -1.590430],
+      lon:[-80.808516, -79.191974, -78.035387],
+      mode:'markers',
+      marker:{
+        symbol: ['place-of-worship', 'fuel', 'castle'],
+        size: 20,
+        allowoverlap: true,
+      },
+      text: ['Food processing', 'Petroleum refining', 'Powerplant']
     }];
     
     var layout = {mapbox: {center: {lon: -79, lat: -1.8}, zoom: 5.5},
                   width: 800, height:600};
     
     var config = {mapboxAccessToken: "pk.eyJ1IjoiamF2aWxsYW8iLCJhIjoiY2szcW5iaGp6MDNnZTNucHNpM3l5d2ZqcyJ9.mPBk3ZOVSp1N4yAIglYLpg"};
-    var d = jQuery.getJSON('./assets/ecuador.geojson');
-    console.log(d)
     Plotly.newPlot('ecuador-map', data, layout, config);
   }
 
