@@ -49,3 +49,7 @@
     flex-direction: column;
     align-items: center;
 }
+
+#waste-label, .fa-recycle {
+	color: #228B22;
+}
