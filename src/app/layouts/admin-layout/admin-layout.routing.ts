@@ -6,7 +6,6 @@ import { TeamComponent } from '../../team/team.component';
 import { FootprintComponent } from '../../footprint/footprint.component';
 import { IconsComponent } from '../../icons/icons.component';
 import { MapsComponent } from '../../maps/maps.component';
-import { NotificationsComponent } from '../../notifications/notifications.component';
 
 export const AdminLayoutRoutes: Routes = [
 
@@ -14,7 +13,6 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'ecuador',   component: EcuadorComponent },
     { path: 'team',     component: TeamComponent },
     { path: 'me-footprint',     component: FootprintComponent },
-    { path: 'icons',          component: IconsComponent },
+    { path: 'code',          component: IconsComponent },
     { path: 'maps',           component: MapsComponent },
-    { path: 'notifications',  component: NotificationsComponent },
 ];

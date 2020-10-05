@@ -16,7 +16,6 @@ import { TeamComponent } from './team/team.component';
 import { FootprintComponent } from './footprint/footprint.component';
 import { IconsComponent } from './icons/icons.component';
 import { MapsComponent } from './maps/maps.component';
-import { NotificationsComponent } from './notifications/notifications.component';
 
 import {
   AgmCoreModule

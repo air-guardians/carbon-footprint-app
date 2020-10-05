@@ -9,7 +9,6 @@ import { TeamComponent } from '../../team/team.component';
 import { FootprintComponent } from '../../footprint/footprint.component';
 import { IconsComponent } from '../../icons/icons.component';
 import { MapsComponent } from '../../maps/maps.component';
-import { NotificationsComponent } from '../../notifications/notifications.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import {MatRippleModule} from '@angular/material/core';
@@ -47,7 +46,6 @@ const addcomponents = [MatStepperModule, MatCheckboxModule, MatRadioModule]
     FootprintComponent,
     IconsComponent,
     MapsComponent,
-    NotificationsComponent,
   ]
 })
 
